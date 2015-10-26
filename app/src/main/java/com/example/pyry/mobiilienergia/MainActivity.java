@@ -47,4 +47,5 @@ public class MainActivity extends AppCompatActivity {
         sensorIntent.putExtra(EXTRA_SENSOR_KEY, measurementSource);
         startActivity(sensorIntent);
     }
+    //Tervehdys vaan, tuliko perille?
 }
