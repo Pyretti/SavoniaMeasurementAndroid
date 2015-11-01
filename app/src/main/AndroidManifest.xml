@@ -19,6 +19,10 @@
         </activity>
         <activity android:name=".SensorsActivity" >
         </activity>
+        <activity android:name=".startdisplay" >
+        </activity>
+        <activity android:name=".tekugraphs" >
+        </activity>
     </application>
 
 </manifest>

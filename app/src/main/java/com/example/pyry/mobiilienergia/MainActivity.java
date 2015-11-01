@@ -43,8 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void openSensorsActivity(MeasurementSource measurementSource)
     {
-        Intent sensorIntent = new Intent(this, SensorsActivity.class);
-        sensorIntent.putExtra(EXTRA_SENSOR_KEY, measurementSource);
+       // Intent sensorIntent = new Intent(this, SensorsActivity.class);
+        Intent sensorIntent = new Intent(this, startdisplay.class);
+        //sensorIntent.putExtra(EXTRA_SENSOR_KEY, measurementSource);
         startActivity(sensorIntent);
     }
     //Tervehdys vaan, tuliko perille?
