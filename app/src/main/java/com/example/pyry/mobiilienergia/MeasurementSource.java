@@ -15,41 +15,41 @@ public class MeasurementSource implements Serializable {
         this.key = key;
         this.name = name;
         this.description = description;
-    }
+        }
 
-    public void setKey(String key)
-    {
+public void setKey(String key)
+        {
         this.key = key;
-    }
+        }
 
-    public void setName(String name)
-    {
+public void setName(String name)
+        {
         this.name = name;
-    }
+        }
 
-    public void setDescription(String description)
-    {
+public void setDescription(String description)
+        {
         this.description = description;
-    }
+        }
 
 
-    public String getKey()
-    {
+public String getKey()
+        {
         return this.key;
-    }
-    public String getName()
-    {
+        }
+public String getName()
+        {
         return this.name;
-    }
-    public String getDescription()
-    {
+        }
+public String getDescription()
+        {
         return this.description;
-    }
+        }
 
-    @Override
-    public String toString()
-    {
+@Override
+public String toString()
+        {
         return this.name;
-    }
+        }
 
-}
+        }

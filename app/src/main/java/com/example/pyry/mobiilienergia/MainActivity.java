@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         MeasurementSource[] mSources = new MeasurementSource[]{
                 new MeasurementSource("SK101-kuopioenergy", "Kuopion Energia", "Kuopion energian dataa."),
-                new MeasurementSource("SK1-tekuenergy", "Savonian lämpötolpat", "Savonian lämpötolppien dataa")
+                new MeasurementSource("SK1-tekuenergy", "Savonian lämpötolpat", "Savonian lämpötolppien dataa"),
+                new MeasurementSource("SK106-ruokala32r", "Ruokala & Ilmanvaihto", "Ruokalan ja ilmanvaihdon dataa")
         };
 
         ArrayAdapter<MeasurementSource> mSourceAdapter = new ArrayAdapter<MeasurementSource>(this, android.R.layout.simple_list_item_1, mSources);
